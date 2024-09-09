@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -31,9 +30,8 @@
 </head>
 <body>
     <form action=".">
-        <fieldset>
-            <legend class="Font">Akun</legend>
-        <table>
+        
+<table>
             <tr>
                 <td class="Genre" width="130"><label for="Uname">Nama(*)</label> </td>
                 <td><input type="text" id="uname" name="Username"></td>
@@ -46,7 +44,7 @@
              </tr>
              </td>
 
-<td>
+ <td>
              <tr>
                 <td class="Genre"><label for="NIM">NIM(*)</label></td>
                 <td><input type="NIM" placeholder="~~ Hanya Angka ~~" onkeypress="return hanyaAngka(event);" value="" ></td>
@@ -79,20 +77,20 @@
                     </td>
                  </tr></td>
    
- <tr><td>
+<tr><td>
                   <td>
                    <input type="Radio" name="radio">
                    <span class="Radio"> Scroll TikTok </span>
                   </td>
                </tr></td>
 
- <td>
+<td>
                <tr>
                 <td class="Genre Musik">Genre Musik</td>
-                <td class="Radio"><input type="Checkbox"> K-Pop</td>
-                
-</tr>
-             <tr><td>
+                <td class="Radio"><input type="Checkbox"> K-Pop</td> 
+             </tr>
+
+<tr><td>
                 <td class="Radio"><input type="Checkbox"> Pop </td>
              </tr></td>
              <tr><td></td>
@@ -115,28 +113,27 @@
         </td>
 
 <td>
-    <tr>
-     <td class="Genre"><label for="Alasan Masuk TI">   Alasan Masuk TI   </label></td>
-     <td>
-     <textarea class="Radio" name="alasan" id="alasan"> Alasan Saya...
-     </textarea>                
-     </td>
+        <tr>
+            <td class="Genre"><label for="Alasan Masuk TI">   Alasan Masuk TI   </label></td>
+            <td>
+                <textarea class="Radio" name="Alasan" id="Alasan"> Alasan Saya...
+                </textarea>                
+            </td>
+        </tr>
+        </td>   
+<td>
+     <tr>
+        <td>
+        <input type="submit" value="Daftar">
+        <input type="reset" value="Reset">     
+        </td>
      </tr>
-     </td>   
-
-<td>       
- <tr>
-    <td>
-       <input type="submit" value="Daftar">
-       <input type="reset" value="Reset">     
-     </td>
-</tr>
-</table>
-</form>
-</fieldset>
-   
+    </table>
+</form>  
 </body>
 </html>
+   
+
 
        
           
