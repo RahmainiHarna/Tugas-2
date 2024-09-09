@@ -1,10 +1,11 @@
-     <html lang="en">
-     <head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tugas 2</title>
 
-    <style>
+<style>
         .dftr-pilihan {background-color:rgb(200, 172, 137);
             color:rgb(22, 22, 22);
             text-align:center;  
@@ -27,27 +28,25 @@
         }
 
     </style>
-    </head>
-    <body>
-
-      <form action=".">
+</head>
+<body>
+    <form action=".">
         <fieldset>
             <legend class="Font">Akun</legend>
         <table>
-            
-             <tr>
+            <tr>
                 <td class="Genre" width="130"><label for="Uname">Nama(*)</label> </td>
                 <td><input type="text" id="uname" name="Username"></td>
              </tr>
              
-             <td>
+ <td>
              <tr>
                 <td class="Genre">Password(*)</td>
                 <td><input type="passwoord"></td>
              </tr>
              </td>
 
-             <td>
+<td>
              <tr>
                 <td class="Genre"><label for="NIM">NIM(*)</label></td>
                 <td><input type="NIM" placeholder="~~ Hanya Angka ~~" onkeypress="return hanyaAngka(event);" value="" ></td>
@@ -62,7 +61,7 @@
              </tr>
              </td>
 
-             <td>
+<td>
              <tr>
              <td class="dftr-pilihan">Hobi</td>            
                   <td>
@@ -73,26 +72,26 @@
              </td>   
                   
 
-                  <tr><td>
+<tr><td>
                     <td>
                      <input type="Radio" name="radio">
                      <span class="Radio"> Membaca </span>
                     </td>
                  </tr></td>
    
-               <tr><td>
+ <tr><td>
                   <td>
                    <input type="Radio" name="radio">
                    <span class="Radio"> Scroll TikTok </span>
                   </td>
                </tr></td>
 
-               <td>
+ <td>
                <tr>
                 <td class="Genre Musik">Genre Musik</td>
                 <td class="Radio"><input type="Checkbox"> K-Pop</td>
                 
-             </tr>
+</tr>
              <tr><td>
                 <td class="Radio"><input type="Checkbox"> Pop </td>
              </tr></td>
@@ -101,7 +100,7 @@
              </tr></td>
             </td>
 
-            <td>
+<td>
             <tr>
                 <td class="Genre">    Asal Sekolah </td>
                 <td class="Radio"><select name="prodi" id="Prodi">
@@ -115,26 +114,31 @@
         </tr>
         </td>
 
-        <td>
-        <tr>
-            <td class="Genre"><label for="Alamat">   Alasan Masuk TI   </label></td>
-            <td>
-                <textarea class="Radio" name="alamat" id="alamat"> Alasan Saya...
-                </textarea>                
-            </td>
-        </tr>
-        </td>   
+<td>
+    <tr>
+     <td class="Genre"><label for="Alasan Masuk TI">   Alasan Masuk TI   </label></td>
+     <td>
+     <textarea class="Radio" name="alasan" id="alasan"> Alasan Saya...
+     </textarea>                
+     </td>
+     </tr>
+     </td>   
 
-        <td>
-        
-            <tr>
-                <td>
-                    <input type="submit" value="Daftar">
-                    <input type="reset" value="Reset">     
-                </td>
-            </tr>
-    </table>
-    </form>
-    </fieldset>
-    </body>
-    </html>
+<td>       
+ <tr>
+    <td>
+       <input type="submit" value="Daftar">
+       <input type="reset" value="Reset">     
+     </td>
+</tr>
+</table>
+</form>
+</fieldset>
+   
+</body>
+</html>
+
+       
+          
+          
+  
