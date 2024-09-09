@@ -31,18 +31,18 @@
 <form action=".">
     <table>
         <tr>
-            <td class="Genre" width="130"><label for="Uname">Nama(*)</label> 
+            <td class="Genre" width="150"><label for="Uname">Nama(*)</label> 
             <td><input type="text" id="uname" name="Username"></td>
         </tr>
 
-   <td>
+   
    <tr>
        <td class="Genre">Password(*)</td>
        <td><input type="passwoord"></td>
    </tr>
-   </td>
+  
 
-<td>
+
 <tr>
     <td class="Genre"><label for="NIM">NIM(*)</label></td>
     <td><input type="NIM" placeholder="~~ Hanya Angka ~~" onkeypress="return hanyaAngka(event);" value="" ></td>
@@ -55,9 +55,9 @@
             }
     </script>
 </tr>
-</td>
 
-<td>
+
+
 <tr>
     <td class="dftr-pilihan">Hobi</td>            
     <td>
@@ -65,7 +65,7 @@
         <span class="Radio"> Rebahan </span>
     </td>
 </tr>  
-</td>
+
 
 <tr><td>
     <td>
@@ -81,12 +81,12 @@
     </td>
 </tr></td>
 
-<td>
+
 <tr>
     <td class="Genre Musik">Genre Musik</td>
     <td class="Radio"><input type="Checkbox"> K-Pop</td>      
 </tr>
-</td>
+
         
 <tr><td>
     <td class="Radio"><input type="Checkbox"> Pop </td>
@@ -96,7 +96,7 @@
      <td class="Radio"><input type="Checkbox"> R&B </td>
 </tr></td>
 
- <td>
+
  <tr>
     <td class="Genre">    Asal Sekolah </td>
     <td class="Radio"><select name="prodi" id="Prodi">
@@ -108,9 +108,9 @@
     </select>
     </td> 
 </tr>
-</td>
 
-<td>
+
+
 <tr>
     <td class="Genre"><label for="Alasan Masuk TI">Alasan Masuk TI</label></td>
     <td>
@@ -118,9 +118,9 @@
                 </textarea>                
     </td>
 </tr>
-</td> 
 
-<td>
+
+
 <tr>
    <td>
    <input type="submit" value="Daftar">    
@@ -128,12 +128,9 @@
    <td>
    <input type="reset" value="Reset">
     </td>
-</td>
 </tr>
-</table>   
-</form>   
-</body>
-</html>
+  
+
 
        
       
