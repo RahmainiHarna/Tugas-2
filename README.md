@@ -27,8 +27,8 @@
         }
 
     </style>
-</head>
-<body>
+    </head>
+    <body>
 
       <form action=".">
         <fieldset>
@@ -134,8 +134,7 @@
                 </td>
             </tr>
     </table>
-</form>
-</fieldset>
-   
-</body>
-</html>
+    </form>
+    </fieldset>
+    </body>
+    </html>
